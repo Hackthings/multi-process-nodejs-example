@@ -5,7 +5,6 @@
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["node", "express", "static", "twitter", "redis", "tortoise", "rabbitMQ"]
    "env": {
-    "NODE_ENV": "production",
      "NODE_ENV": "choose one of ('development' | 'production'): when development, it uses dotenv, to read the local .env file, that's the only difference"
   "LOGGER_LEVEL": "('error' | 'warn' | 'info' | 'verbose' | 'debug' | 'silly'), default: info",
 "LOGGER_ENABLED": "('true' | 'false'), default: true",
