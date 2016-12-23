@@ -56,3 +56,7 @@ The process is serving an HTTP API to return the tweets.
   - `LOGGER_ENABLED` (`'true' | 'false'`), default: `true`
   - `REDIS_URI`
   - `PORT`
+  
+### Deployment
+ 
+ -  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
