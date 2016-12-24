@@ -14,5 +14,18 @@
 "TWITTER_ACCESS_TOKEN_SECRET": "From your twitter App",
 "TWITTER_TRACK:" "comma separated keywords to track, eg. nodejs,node.js,risingstack,microservice,micro-service"
 "RABBITMQ_URI": ""
+    },
+"addons": [
+    "openredis",
+    {
+      "plan": "mongolab:shared-single-small",
+      "as": "MONGO"
+    },
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
     }
+  ],
   },
