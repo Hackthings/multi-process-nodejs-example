@@ -5,14 +5,14 @@
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["node", "express", "static", "twitter", "redis", "tortoise", "rabbitMQ"]
    "env": {
-     "NODE_ENV": "choose one of ('development' | 'production'): when development, it uses dotenv, to read the local .env file, that's the only difference"
-  "LOGGER_LEVEL": "('error' | 'warn' | 'info' | 'verbose' | 'debug' | 'silly'), default: info",
-"LOGGER_ENABLED": "('true' | 'false'), default: true",
+     "NODE_ENV": "production"
+  "LOGGER_LEVEL": "info",
+"LOGGER_ENABLED": "false",
 "TWITTER_CONSUMER_KEY": "From your twitter App",
 "TWITTER_CONSUMER_SECRET": "From your twitter App",
 "TWITTER_ACCESS_TOKEN_KEY": "From your twitter App",
 "TWITTER_ACCESS_TOKEN_SECRET": "From your twitter App",
-"TWITTER_TRACK:" "comma separated keywords to track, eg. nodejs,node.js,risingstack,microservice,micro-service"
+"TWITTER_TRACK:" "nodejs,node.js,risingstack,microservice,micro-service"
 "RABBITMQ_URI": ""
     },
 "addons": [
@@ -28,4 +28,4 @@
       }
     }
   ],
-  },
+  }
